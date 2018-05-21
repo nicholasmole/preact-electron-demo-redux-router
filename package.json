@@ -1,0 +1,29 @@
+{
+  "name": "preact-electron-demo",
+  "version": "0.1.0",
+  "private": true,
+  "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+  "homepage": "./",
+  "dependencies": {
+    "@just-boris/preact-scripts": "1.1.4",
+    "history": "^4.7.2",
+    "preact": "^8.2.9",
+    "preact-compat": "^3.18.0",
+    "preact-redux": "^2.0.3",
+    "preact-router": "^2.6.0",
+    "redux": "^4.0.0"
+  },
+  "main": "src/electron-starter.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dev": "nf start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.1",
+    "foreman": "^2.0.0"
+  }
+}
