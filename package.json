@@ -15,7 +15,7 @@
   },
   "main": "src/electron-starter.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "dev": "nf start",
     "test": "react-scripts test --env=jsdom",
